@@ -1,2 +1,2 @@
 # samulab
-website
+website, oughtha take oneself seriously
