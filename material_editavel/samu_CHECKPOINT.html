@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SAMULAB</title>
+    <link rel="shortcut icon" href="favicon02.ico">
+    <link rel="stylesheet" type="text/css" href="css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-theme.min.css" />
+
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Roboto+Condensed" rel="stylesheet">
+    <!--
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    -->
+    <script>document.documentElement.className = 'js';</script>
+    <script src="js/JQuery_331.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/npm.js"></script>
+    <script>
+      $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+    </script>
+    <style>
+      body {
+        background-color: #E5E4E2;
+        color: #25383C;
+        font-family: Roboto, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div id='feed'>
+        <div class="jumbotron text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <h1>SAMU.LAB</h1>
+                <p><center>experimentos, animação, sardinhas</center></p>
+                <center><img src="img/Sardinha01.png" alt="aleatorio" style="width:150px"></center></br>
+                <a href="#info" type="button" class="btn btn-info"><span class="nav__item-title">><(((º> ::data:: ><(((º></span></a>
+                <p><center>Feed coisa mais atual, residuo instagram(?)</center></p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div id="header">
+          <section class="section section--nav" id="Maxamed">
+            <span class="link-copy"></span>
+            <nav class="nav nav--maxamed">
+              <button class="nav__item nav__item--current" aria-label="Item 1"><a href="#feed"><span class="nav__item-title">Feed</span></button></a></br>
+              <button class="nav__item" aria-label="Item 2"><a href="#projeto"><span class="nav__item-title">Projeto</span></button></a></br>
+              <button class="nav__item" aria-label="Item 3"><a href="#info"><span class="nav__item-title">Info</span></button></a></br>
+              <button class="nav__item" aria-label="Item 4"><span class="nav__item-title">Blog</span></button></br>
+            </nav>
+            <!-- Mockup slider for decorative purpose only -->
+            <div class="mockup-slider">
+              <!--<img src="img/Bianca01.png" alt="img08" />-->
+            </div>
+          </section>
+        </div>
+
+      <div id="projeto">
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10" id="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <div class="painelprojID" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          <div class="col-lg-12 text-center"><span class="painelproj-text"><h1>INDESCRITIVEL </br> Direção // Roteiro // Animação </h1></span>
+                          </div>
+                      </div>
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                      <div class="card-body">
+                        <!--<img src="img/Bianca01.png"></img> -->
+                        <h1>INFOS SOBRE INDECRITIVEL AQUI</h1>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <div class="painelprojFLERTE" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <div class="col-lg-12 text-center"><span class="painelproj-text"><h1>Direção FLERTE</h1></span>
+                          </div>
+                        </div>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                      <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      </div>
+                    </div>
+                  </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Collapsible Group Item #3
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                      <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+             <!--<div class="row">
+               <div class="painelprojID"><div class="col-lg-12 text-center"><span class="painelproj-text"><h1>Direção // Roteiro INDESCRITIVEL</h1></span></div></div>
+               <div class="painelprojFLERTE"><div class="col-lg-12 text-center"><span class="painelproj-text"><h1>Direção FLERTE</h1></span></div></div>
+             </div>-->
+          </div>
+        </div>
+
+    </section>
+    <div class="container">
+      <h1><center>Realizacao</center></h1>
+      <ul>
+      	<li>Painel Audiovisual</li>
+      	<li>solucoes para stop-motion: motion-control</li>
+      	<li>LESMA</li>
+      	<li>Escrita de animacao junto ao Cinefestivais</li>
+      	<li>Oficinas de animacao junto ao NCA</li>
+      	<li>links uteis: MUAN no animador caipira</li>
+      </ul>
+    </div>
+    <div id='info'>
+      <div class="container">
+        <h1><center>data</center></h1>
+        <ul>
+          <li>140 caracteres narcisisticos</li>
+          <li>coisas de CV(?)</li>
+          <li>aprofundamento no Blog</li>
+        </ul>
+      </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <p><center>Blog</center></p>
+    <ul>
+      <il>cine-diário de projetos</il>
+      <il>projetos de arduíno / python para stop-motion, seus usos, exemplos</il>
+    </ul>
+    <p><center>Contato</center></p>
+    <br>
+    <p>presenca online: blog, github / arduino, instagram, facebook (somente mensagem)</p>
+    <article>
+      <section>
+        <h2>What I Learned</h2>
+          <p>HTML5 can have articles and sections.</p>
+      </section>
+    </article>
+
+
+
+    <p> powered by codrops </p>
+    <script src="js/clipboard.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
